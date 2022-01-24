@@ -14,6 +14,7 @@ function Item(props) {
     return <li style={`color:${props.color}`}>{props.children}</li>
 }
 
+//
 const App = () => (
     <p>
         <Title>React 잘 만들기</Title>

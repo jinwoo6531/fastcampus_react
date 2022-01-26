@@ -7,7 +7,6 @@ class Title extends Component {
   }
 }
 
-//함수 컴포넌트 / 클래스 컴포넌트
 function Item(props) {
   return <li style={`color:${props.color}`}>{props.children}</li>;
 }
